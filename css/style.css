@@ -12502,7 +12502,6 @@ hr {
 
 
 .media {
-
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -12514,24 +12513,34 @@ hr {
 
 }
 
-.special {
+/* .special {
   background: linear-gradient(to left, rgb(213, 81, 129), rgb(240, 135, 158));
-}
+} */
 
 .media div {
   display: inline-block;
   padding: 0.6rem;
+  background-color: white;
   width: 23.5%;
   /* max-width: 100%; Changed max-width to 100% for responsiveness */
   height: auto; /* Adjusted height to auto for responsiveness */
   /* min-height: 7rem; Added min-height for better responsiveness */
-  border: 1px solid grey;
   border-radius: 0.9rem;
+  box-shadow: 0px 1px 1px 0px lightgrey;
 }
 
 .media div:hover{
+  padding-bottom: 0.2rem;
   background: linear-gradient(to left, rgb(213, 81, 129), rgb(240, 135, 158));
+  box-shadow: 0px 2px 2px 0px grey;
+  border: 2px solid #FF939B;
+  transform: 3s;
+  
 }
+.social:hover h1,.social:hover h6{
+  color: white;
+}
+
 
 .instagram {
   padding: 1.5rem 0rem;
@@ -12671,6 +12680,15 @@ hr {
   flex-direction: column;
 }
 
+.commercial{
+  display: flex;
+  width: 100%;
+}
+
+#commercial{
+  width: 100%;
+}
+
 
 @media only screen and (max-width: 767.98px) {/* ExTra Class Start*/
   .dashboard__content{
@@ -12681,7 +12699,7 @@ hr {
   }
   .middle {
     flex-wrap: wrap;
-    flex-direction: column; /* Change to vertical layout for screens <= 768px */
+    flex-direction: column; 
   }
   .profile{
   flex-direction: column;
@@ -12743,4 +12761,28 @@ hr {
     left:-1.5rem;
     float: left;
   }
+  
+  .social{
+    margin:0px 3px;
+    padding-right: 3rem;
+    height: fit-content;
+    width: 600px;
+  }
+  .media{
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent wrapping */
+    -webkit-overflow-scrolling: touch;
+    padding-left: 15rem;
+  }
+
+  .media::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+  .media div{
+    margin: 0px 0.4rem;
+    width: 100%;
+  }
+
 }

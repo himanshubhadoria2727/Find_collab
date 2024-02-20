@@ -8,3 +8,5 @@ var container = document.querySelector('.media');
   hammertime.on('swiperight', function() {
     container.scrollLeft -= 190; // Adjust scroll amount to account for padding
   });
+
+  
