@@ -12508,10 +12508,7 @@ hr {
   justify-content: space-evenly;
 }
 
-.social{
-  display: inline-block;
 
-}
 
 /* .special {
   background: linear-gradient(to left, rgb(213, 81, 129), rgb(240, 135, 158));
@@ -12682,13 +12679,66 @@ hr {
 
 .commercial{
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  width: 96%;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
 }
 
 #commercial{
   width: 100%;
 }
 
+.table-head{
+  background-color: #ea9696;
+  display: flex;
+  color: white;
+  width: 95%;
+  margin: auto;
+}
+
+#item{
+  display: flex;
+  width: 16%;
+  justify-content: center;
+  align-items: center;
+}
+
+#prices{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+#comments{
+  
+  display: flex;
+  width: 74%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+th{
+  
+  background-color: #fc8a8a;
+  color: white;
+}
+
+th{
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+#numb{
+  padding-top:2rem ;
+}
 
 @media only screen and (max-width: 767.98px) {/* ExTra Class Start*/
   .dashboard__content{
@@ -12742,7 +12792,7 @@ hr {
   .campaign{
     margin: 0px 1rem;
     width: 100%;
-
+    margin-bottom: 2rem
   }
   #brand{
     justify-content: space-around;
@@ -12784,5 +12834,32 @@ hr {
     margin: 0px 0.4rem;
     width: 100%;
   }
+
+  .table-head{
+    display: none;
+  }
+
+  #inner-span{
+    color: white;
+    width: 90%;
+    margin: auto;
+    background-color: #ea9696;
+  }
+
+  .commercial{
+    margin: auto;
+  }
+  #commercial{
+    width: 97%;
+    margin: auto;
+    border: none;
+    padding: 2rem;
+  }
+
+  .table-head{
+    width: 93%;
+    color: white;
+    margin: auto;
+  } */
 
 }
