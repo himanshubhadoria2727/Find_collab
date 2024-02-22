@@ -12782,7 +12782,7 @@ table{
 
 #prices{
   display: flex;
-  width: 30%;
+  width: 35i%;
   justify-content: flex-end;
   align-items: flex-end;
 }
