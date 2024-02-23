@@ -7,14 +7,12 @@
 
     .instagram1 {
     border-radius: 1.5px;
-    box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.13);
     display: flex;
     justify-content: space-between; /* Ensure space between items */
     align-items: center; /* Center items vertically */
-    height: 173px;
-    max-width: 70vmax;
+    height:fit-content;
     border-top: 3px solid rgba(236, 60, 133, 1);
-    padding: 10px; /* Add padding for spacing */
+    padding:0.7rem /* Add padding for spacing */
     }
 
     .left {
@@ -26,8 +24,8 @@
     }
 
     .image11 {
-    width: 100px;
-    height: 100px;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
     border: 2px solid rgba(216, 15, 75, 0.884);
     background-color: #fff;
@@ -93,6 +91,7 @@
     }
 
     .bio p {
+    color: black;
     margin: 0px;
     font-size: 11px;
     font-weight: 500;
@@ -112,9 +111,7 @@
     }
 
     .left {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+        width: 100%;    }
 
     .right {
         width: 100%;
@@ -122,25 +119,37 @@
     }
 
   .head {
-    margin-top: 2px;
     gap: 120px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
   }
 
+  .head span{
+    font-size: large;
+  }
   .followers_info {
     display: flex;
-    
-    box-shadow: 2px 0px 2px 0px grey;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     flex-direction: row;
     gap: 50px;
-    padding: 5px;
+    border-top: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding: 1rem;
+    padding-bottom: 5vh;
   }
 
   .followers_info p span{
     font-size: smaller;
-    font-weight: 300;
-
+    font-weight: bold;
+    color: rgb(55, 54, 54);
+  }
+  #follow_p{
+    padding: 0px;
+    font-size:  14px;
+    color: black;
+    height: 10px;
   }
 }

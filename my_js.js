@@ -9,4 +9,13 @@ var container = document.querySelector('.media');
     container.scrollLeft -= 190; // Adjust scroll amount to account for padding
   });
 
-  
+  window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        var mobileMedia = document.querySelector('.mobile-media');
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            mobileMedia.classList.add("steeck");
+        } else {
+            mobileMedia.classList.remove("steeck");
+        }
+    }

@@ -1,0 +1,681 @@
+.shady{
+box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
+
+}
+
+.flexy{
+    display: flex;
+}
+
+.small-font{
+    color: rgba(34, 34, 34, 1);
+}
+
+#head-text{
+    position: relative;
+    left: 1.4rem;
+  }
+  
+  .dashboard__content{
+    display: none;
+    margin: 0px;
+  }
+  .dashboard_title_area{
+    margin-top: 2rem;
+  }
+  .middle {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255,255,255,1);
+    border-radius: 4px;
+    margin: 1.5rem;
+  }
+  
+
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(255,255,255,1);
+
+    padding-right: 0.6rem;
+    height: 130vh;  /* Adjusted height to auto for responsiveness */
+    /* min-height: 100vh; Added min-height to ensure content fills the screen */
+  }
+  
+  
+  .profile-dscrp {
+    margin: 1rem;
+    border-radius: 2px;
+    background-color: white;
+    position: relative;
+    left: -10px;
+    top: 2px;
+    padding: 1.4rem;
+    width: 30%; /* Changed width to 100% for responsiveness */
+    height: 52rem /* Adjusted height to auto for responsiveness */
+  }
+
+  #profile-div{
+    justify-content: center;
+  }
+  
+  .profile-dscrp img {
+    border-radius: 1rem;
+    width: 100%; /* Changed width to 100% for responsiveness */
+    max-width: 14rem; /* Added max-width for better control on smaller screens */
+    height: auto; /* Adjusted height to auto for responsiveness */
+    margin-bottom: 1rem;
+  }
+  
+  #cosmetic{
+    padding-bottom: 1rem;
+  border-bottom: 1px dashed #999;
+  text-decoration: none;
+  }
+  
+  /* .inside-dscrp div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 0.5rem;
+  } */
+  
+  .disc {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #cbc7c7;
+    text-decoration: none;
+  }
+  
+  #budget-btn{
+    border: none;
+    background: linear-gradient(to right, rgba(253, 116, 122,1), rgba(235, 54, 108,1));
+    color: white;
+    margin-top: 0.8rem;
+    width: 100%;
+  }
+  
+  #budget-btn-out{
+    border: none;
+    background: linear-gradient(to right, rgba(253, 116, 122,1), rgba(235, 54, 108,1));
+    color: white;
+    margin-top: 0.8rem;
+    width: 100%;
+  }
+  
+  #budget-btn-out{
+    display: none;
+  }
+  
+  #name  {
+    position: relative;
+    left: 0.5rem;
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+  #name img {
+    position: relative;
+  }
+  
+  .checked {
+    color: rgba(206, 206, 58, 0.816);
+  }
+  
+  .details {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto; /* Adjusted height to auto for responsiveness */
+  }
+  
+  
+  .media {
+    display: flex;
+    margin-bottom: 0.6em;
+    width: 100%;
+    margin-top: 1.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .mobile-media{
+    display: none;
+  }
+  
+  /* .special {
+    background: linear-gradient(to left, rgb(213, 81, 129), rgb(240, 135, 158));
+  } */
+  
+  .social span{
+    display: flex;
+    justify-content: space-between;
+  }  
+  
+  
+  .social img{
+    width: 26px;
+    height: 24px;
+  }
+  
+  .media div {
+    display: flex;
+    padding: 0.7rem 0.8rem 0px 1.2rem;
+    background-color: white;
+    border: 2px solid rgb(238, 237, 237);
+    width: 23.3%;
+    height: 2rem;
+    flex-direction: column;
+    /* max-width: 100%; Changed max-width to 100% for responsiveness */
+    height: auto; /* Adjusted height to auto for responsiveness */
+    /* min-height: 7rem; Added min-height for better responsiveness */
+    border-radius: 0.9rem;  
+    }
+  
+  .media div:hover{
+    background: linear-gradient(to right, rgba(252, 115, 122, 1),rgba(236, 58, 109, 1));
+    border: 2px solid #FF939B;;
+    transform: 3s; 
+  }
+  
+  
+  .social:hover h1,.social:hover h6{
+    color: white;
+  }
+  
+  
+  .instagram img {
+  
+    width: 100%;
+  }
+  
+  .stats{
+    display: flex;
+    margin: 0.5rem 0px;
+    flex-direction:row;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .graph{
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    margin-right: 0.4rem;
+    width: 52%;
+  }
+  
+  .heading123{
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    color: black;
+    width: 100%;
+    font-weight: 500;
+    font-size: large;
+    display: flex;
+  }
+  
+  .graph-bottom{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .graph-details{
+    width: 100%;
+    padding: 0.5rem;
+    border-right: 1px solid gainsboro;
+    text-decoration: none;
+  }
+  
+  .graph-footer span{
+    background-color: #ffe9e3;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.7rem;
+    font-size: 9px;
+    font-weight: bolder;
+  }
+  
+  .gauge-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    text-decoration: none;
+  
+  }
+  
+  .graph-details span{
+    color: black;
+    font-weight: bolder;
+    float: right;
+    right: 0;
+  }
+  
+  .campaign{
+    float: right;
+    background-color: white;
+    width: 55%;
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .campaign #left{
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    float: left;
+  }
+  
+  .campaign #right{
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    float: right;
+  }
+  
+  .campaign-head{
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  .head-names{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 1rem;
+    border-bottom: 1px solid pink;
+  }
+  
+  .head-names span{
+    color: black;
+    font-weight: 300;
+  }
+  
+  .brand-details{
+    width: auto;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .brand-details span{
+  }
+  
+  #brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+   #rating{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  .My-commercial{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    /* margin-right: 0.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem; */
+    margin-top: 1rem;
+    background-color: white;
+  }
+  
+  #commercial{
+    
+    width: 100%;
+  }
+  
+  table{
+    border: 0px;
+  }
+  
+  .table-head{
+    background-color: #ea9696;
+    background: linear-gradient(to right, rgba(252, 115, 122, 1),rgba(236, 58, 109, 1));
+  
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: auto;
+  }
+  
+  #item{
+    display: flex;
+    width: 16%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #prices{
+    display: flex;
+    width: 35%;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  #comments{
+    
+    display: flex;
+    width: 74%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  th{
+    
+    background-color: #fc8a8a;
+    color: white;
+  }
+  
+  .table-div{
+    border: 1px solid pink;
+    width: 98%;
+    padding: 0px 1.2rem 1.2rem 1.2rem;
+    margin: 0px 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .table-head{
+    width: 100%;
+    position: relative;
+    bottom: 1rem;
+  }
+  th{
+    text-align: center;
+  }
+  
+  tr{
+    margin-left: 2rem;
+  }
+  
+  
+  #numb{
+    padding-top:2rem ;
+  }
+ 
+  
+  @media only screen and (max-width: 767.98px) {/* ExTra Class Start*/
+  
+    .dashboard_title_area{
+      margin: 0px;
+    }
+    .dashboard__content{
+      display: none;
+    }
+    .details{
+        padding: 1rem;
+    }
+    #head-text{
+      display: none;
+    }
+    .middle {
+        padding-top: 1rem;
+    background-color: #fff1f1;
+      margin: 0px;
+      flex-wrap: wrap;
+      flex-direction: column; 
+    }
+    .profile{
+    padding: 1rem;
+    padding: 0px;
+    background-color: #fff1f1;
+    height: fit-content;
+    margin-right: 0px;
+    flex-direction: column;
+    }
+  
+    #budget-btn{
+      display: none;
+    }
+  
+    #budget-btn-out{
+      display: flex;
+      margin: 0px;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      position: relative;
+      left: 25vw;
+      bottom: 2.2rem;
+      z-index: 5;
+      height: 2.5rem;
+    }
+  
+    .profile #pfp{
+      width: 10rem;
+    }
+  
+    #profile-div{
+    display: flex;
+    width: fit-content;
+    }
+    .inside-dscrp{
+        padding-left: 0.9rem;
+        font-size: 11.1px;
+    }
+    .name{
+      color: black;
+    }
+    #profile-text{
+      display: none;
+    }
+    .profile-dscrp{
+      display: flex;
+      flex-wrap: wrap;
+        width: 92%;
+        margin-left: 6.1vw;
+
+      height: fit-content;
+    }
+  
+    .disc{
+      border-bottom: 0px;
+    }
+  
+
+    /* .profile-dscrp img{
+      width: 45%;
+    } */
+    #name{
+      display: flex;
+      flex-wrap: wrap;
+      height: 2rem;
+    }
+    .stats{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .graph{
+      margin-bottom: 1.5rem;
+      width: 100%;
+      padding: 0.3rem;
+      height: auto;
+    }
+  
+    .campaign{
+      width: 100%;
+      margin: 1px;
+      height: auto;
+    }
+    
+    .graph-bottom{
+      flex-wrap: wrap;
+    }
+
+    .graph-details{
+      margin: 0px;
+      border-right: 0px;
+      border-bottom: 1px solid rgb(193, 193, 193);
+    }
+  
+    .graph-footer span{
+      font-size:8.4px;
+    }
+  
+  
+    #brand{
+      justify-content: space-around;
+    }
+    #rating .fa{
+      width: auto;
+    }
+    
+    .instagram{
+      margin: 0px 1rem;
+    }
+  
+    .mobile_logo img{
+      width: 70%;
+      position: relative;
+      left:-1.5rem;
+      float: left;
+    }
+    
+    .social{
+      margin:0px 3px;
+      padding-right: 3rem;
+      box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
+      height: fit-content;
+    }
+  
+    #page{
+      position: sticky;
+      top: 0px;
+      z-index: 11;
+    }
+  
+    .mobile-media {
+      display: flex;
+      width: 100%;
+      margin-top: -0.3rem;
+      flex-direction: row;
+      padding-left: 7vw;
+      justify-content: space-between;
+    }
+    
+    .mobile-media span{
+        font-weight: bold;
+    }
+    
+    #cosmetic{
+        border: 0px;
+    }
+    /* .special {
+      background: linear-gradient(to left, rgb(213, 81, 129), rgb(240, 135, 158));
+    } */
+    
+    .mobile-media div {
+      display: inline-block;
+      padding: 0.6rem;
+      background-color: white;
+      width: 23.5%;
+      /* max-width: 100%; Changed max-width to 100% for responsiveness */
+      height: auto; /* Adjusted height to auto for responsiveness */
+      /* min-height: 7rem; Added min-height for better responsiveness */
+      border-radius: 0.9rem;
+      box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
+
+      }
+    
+      
+    .mobile-media div:hover {
+      padding-bottom: 0.2rem;
+      background: linear-gradient(to right, rgba(252, 115, 122, 1),rgba(236, 58, 109, 1));
+      box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
+
+      border: 2px solid #FF939B;
+      transform: 3s;
+      color: white;
+    }
+  
+    .mobile-media{
+      overflow-x: auto; /* Enable horizontal scrolling */
+      overflow-y: hidden; /* Hide vertical scrollbar */
+      white-space: nowrap; /* Prevent wrapping */
+      -webkit-overflow-scrolling: touch;
+      padding:0.5rem 0px;
+      padding-left: 1.9vw;
+      padding-right: 1.9vw;
+    }
+
+    .mobile-media div{
+      margin: 0px 0.4rem;
+      margin-bottom: 0.5rem;
+      width: 100%;
+      height: 4rem;
+    }
+  
+   
+  
+    .media{
+      display: none;
+    }
+  
+    .instagram{
+      padding: 0px;
+    }
+  
+    .table-head{
+      display: none;
+    }
+  
+    #inner-span{
+      color: white;
+      width: 92%;
+      margin: auto;
+      background: linear-gradient(to right, rgba(252, 115, 122, 1),rgba(236, 58, 109, 1));
+    }
+  
+    .My-commercial{
+      width: 100%;
+      margin: auto;
+      margin-top: 1rem;
+    }
+    #commercial{
+      width: 97%;
+      margin: auto;
+      border: none;
+      padding: 2rem;
+    }
+  
+    .table-div{
+      padding: 0px;
+      border: 0px;
+    }
+    .table-head{
+      width: 100%;
+      color: white;
+      margin: auto;
+    } 
+        
+    .mobile-media::-webkit-scrollbar {
+      display: none; /* Hide the scrollbar */
+  }
+   
+    }
+
+  
+    
+  }
