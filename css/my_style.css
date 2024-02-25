@@ -678,4 +678,158 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
 
   
     
+    .info {
+      height: fit-content;
+      background-color: white;
+      width: 100%;
+      margin: 0.5rem 0px;
+      }
+  
+      .instagram1 {
+      border-radius: 1.5px;
+      display: flex;
+      justify-content: space-between; /* Ensure space between items */
+      align-items: center; /* Center items vertically */
+      height:fit-content;
+      border-top: 3px solid rgba(236, 60, 133, 1);
+      padding:0.7rem /* Add padding for spacing */
+      }
+  
+      .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+      padding: 0px;
+      }
+  
+      .image11 {
+      width: 40%;
+      height: 40%;
+      border-radius: 50%;
+      border: 2px solid rgba(216, 15, 75, 0.884);
+      background-color: #fff;
+      }
+  
+      .image11 img {
+      border-radius: 50%;
+      width: 100%;
+     
+      }
+  
+      .right {
+      height: fit-content;
+      padding: 5px;
+      }
+  
+      .head {
+      display: flex;
+      align-items: center;
+      gap: 300px;
+      }
+  
+      .name {
+      display: flex;
+      align-items: center;
+      }
+  
+      .name img {
+      margin-right: 3px;
+      }
+  
+      .name > span {
+      font-size: 14px;
+      font-weight: 600;
+      }
+  
+      .download {
+      display: flex;
+      align-items: center;
+      }
+  
+      .download img {
+      padding: 2px;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 166, 0, 0.445);
+      margin: 5px;
+      }
+  
+      .followers_info {
+      display: flex;
+      gap: 20px;
+      }
+  
+      .followers_info p {
+      font-size: 12px;
+      font-weight: 700;
+      }
+  
+      .bio h5 {
+      margin-top: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      }
+  
+      .bio p {
+      color: black;
+      margin: 0px;
+      font-size: 11px;
+      font-weight: 500;
+      }
+  
+      @media only screen and (max-width: 767.98px) {
+      .instagram1{
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          height: auto;
+          width: auto;
+      }
+  
+      .head{
+      
+      }
+  
+      .left {
+          width: 100%;    }
+  
+      .right {
+          width: 100%;
+          margin-top: 20px;
+      }
+  
+    .head {
+      gap: 120px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+  
+    .head span{
+      font-size: large;
+    }
+    .followers_info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      flex-direction: row;
+      gap: 50px;
+      border-top: 1px solid rgb(173, 173, 173);
+      border-bottom: 1px solid rgb(173, 173, 173);
+      padding: 1rem;
+      padding-bottom: 5vh;
+    }
+  
+    .followers_info p span{
+      font-size: smaller;
+      font-weight: bold;
+      color: rgb(55, 54, 54);
+    }
+    #follow_p{
+      padding: 0px;
+      font-size:  14px;
+      color: black;
+      height: 10px;
+    }
   }
