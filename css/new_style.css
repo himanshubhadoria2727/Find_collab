@@ -41,7 +41,7 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
     background-color: rgba(255,255,255,1);
 
     padding-right: 0.6rem;
-    height: 130vh;  /* Adjusted height to auto for responsiveness */
+    height: 70vmax;  /* Adjusted height to auto for responsiveness */
     /* min-height: 100vh; Added min-height to ensure content fills the screen */
   }
   
@@ -193,10 +193,10 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
   }
   
   
-  .instagram img {
+  /* .instagram img {
   
     width: 100%;
-  }
+  } */
   
   .stats{
     display: flex;
@@ -685,10 +685,11 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
     /* instagram css below */
     
     .info {
-      height: fit-content;
+      display: flex;
       background-color: white;
       width: 100%;
       margin: 0.5rem 0px;
+      height: fit-content;
       }
   
       .instagram1 {
@@ -705,13 +706,13 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 30%;
+      width: 3  0%;
       padding: 0px;
       }
   
       .image11 {
-      width: 40%;
-      height: 40%;
+      width: 50%;
+      height: 50%;
       border-radius: 50%;
       border: 2px solid rgba(216, 15, 75, 0.884);
       background-color: #fff;
@@ -783,21 +784,113 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       font-weight: 500;
       }
   
+      
+  .youtube1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: fit-content;
+    border-top: 3px solid rgb(236, 60, 133);
+    padding: 0.2rem 1.2rem 0rem 1.2rem;
+    display: none;
+  }
+
+  .youtube1 img{
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 8vw;
+  }
+
+  .upper-yt{
+    position: relative;
+  }
+
+  .lower-yt{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  #left-yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+
+  #left-yt img{
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+  }
+
+  #right-yt{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+  }
+
+
+  #disc-yt{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    width: 20em;
+  }
+  
+  .upper-yt .yt-download{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .yt-download{
+    display: flex;
+    float: right;
+    flex-direction: row;
+  }
+
+  .yt-download img{
+    padding: 0.5vw;
+    border-radius: 4px;
+    background-color: white;
+    margin: 5px;
+    width: 2vw;
+    height: 2vw;
+  }
       @media only screen and (max-width: 767.98px) {
       .instagram1{
           flex-direction: column;
           align-items: center;
           justify-content: flex-start;
-          height: auto;
+          height: fit-content;
           width: auto;
       }
-  
-      .head{
-      
-      }
+
+
   
       .left {
-          width: 100%;    }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        }
+
+        .image11 {
+          width: 40%;
+          height: 40%;
+          border-radius: 50%;
+          border: 2px solid rgba(216, 15, 75, 0.884);
+          background-color: #fff;
+          }
+      
+          .image11 img {
+          border-radius: 50%;
+          width: 100%;
+         
+          }   
   
       .right {
           width: 100%;
@@ -824,7 +917,7 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       border-top: 1px solid rgb(173, 173, 173);
       border-bottom: 1px solid rgb(173, 173, 173);
       padding: 1rem;
-      padding-bottom: 5vh;
+      padding-bottom: 5vw;
     }
   
     .followers_info p span{
@@ -838,10 +931,23 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       color: black;
       height: 10px;
     }
-  }
 
-  .youtube1{
-    width: 100%;
-    height: 30vh;
-    display: none;
+    .youtube1 img{
+      height: 17vw;
+    }
+
+    #left-yt img{
+      width: 5rem;
+      height: 5rem;
+    }
+
+    #right-yt{
+      padding:1rem;
+      font-size: 10px;
+    }
+    
+    .yt-download img{
+      width: 1rem;
+      height: 1rem;
+    }
   }
