@@ -1,21 +1,18 @@
-var container = document.querySelector('.media');
-  var hammertime = new Hammer(container);
+const social = document.querySelector(".social")
 
-  hammertime.on('swipeleft', function() {
-    container.scrollLeft += 190; // Adjust scroll amount to account for padding
-  });
+function update_insta(){
+    document.addEventListener("click",(e)=>{
+        e.preventDefault();
+        document.querySelector(".youtube1").style.display="none"
+        document.querySelector(".instagram1").style.display="flex"
 
-  hammertime.on('swiperight', function() {
-    container.scrollLeft -= 190; // Adjust scroll amount to account for padding
-  });
+    })
+}
 
-  window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-        var mobileMedia = document.querySelector('.mobile-media');
-        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-            mobileMedia.classList.add("steeck");
-        } else {
-            mobileMedia.classList.remove("steeck");
-        }
-    }
+function update_youtube(){
+    document.addEventListener("click",(e)=>{
+        e.preventDefault();
+        document.querySelector(".instagram1.shady").style.display='none';
+        document.querySelector(".youtube1").style.display="flex"
+    })
+}
