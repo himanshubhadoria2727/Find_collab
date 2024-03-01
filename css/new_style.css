@@ -695,7 +695,7 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       .instagram1 {
       border-radius: 1.5px;
       display: flex;
-      justify-content: space-between; /* Ensure space between items */
+      justify-content: space-evenly; /* Ensure space between items */
       align-items: center; /* Center items vertically */
       height:fit-content;
       border-top: 3px solid rgba(236, 60, 133, 1);
@@ -706,7 +706,8 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 3  0%;
+      width: 30%;
+      height: fit-content;
       padding: 0px;
       }
   
@@ -721,7 +722,6 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
       .image11 img {
       border-radius: 50%;
       width: 100%;
-     
       }
   
       .right {
