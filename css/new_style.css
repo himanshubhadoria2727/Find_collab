@@ -208,6 +208,7 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
   
   .graph{
     background-color: white;
+    margin-right: 0.4rem;
     display: flex;
     flex-direction:column;
     width: 52%;
@@ -512,6 +513,7 @@ box-shadow: 0px 6px 15px 0px rgba(24, 39, 75, 0.12);
     }
     .graph{
       margin-bottom: 1.5rem;
+      margin-right: 0;
       width: 100%;
       padding: 0.3rem;
       height: auto;
